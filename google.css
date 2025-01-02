@@ -1,1 +1,47 @@
+/* ThoughtSpot Custom CSS with Google Colors */
+:root {
+    --ts-var-root-background: #4285f4; /* Google Blue */
+    --ts-var-root-color: #ffffff; /* White text */
+    --ts-var-root-secondary-color: #ea4335; /* Google Red */
+    --ts-var-root-font-family: "Arial", sans-serif;
+    --ts-var-root-text-transform: uppercase;
+    --ts-var-application-color: #fbbc05; /* Google Yellow */
+    --ts-var-accent-color: #34a853; /* Google Green */
+    --ts-var-link-color: #673ab7; /* Google Purple */
+    --ts-var-link-hover-color: #4285f4;
+    --ts-var-button-background: #ea4335;
+    --ts-var-header-background: #34a853;
+    --ts-var-footer-background: #fbbc05;
+}
+
+/* Body Styles */
+body {
+    background-color: var(--ts-var-root-background);
+    color: var(--ts-var-root-color);
+}
+
+/* Button Styles */
+button {
+    background-color: var(--ts-var-button-background);
+    color: var(--ts-var-root-color);
+}
+
+/* Navigation and Header */
+.header {
+    background-color: var(--ts-var-header-background);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--ts-var-footer-background);
+}
+
+/* Link */
+.link {
+    color: var(--ts-var-link-color);
+}
+
+.link:hover {
+    color: var(--ts-var-link-hover-color);
+}
 
