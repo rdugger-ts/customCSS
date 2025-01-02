@@ -1,0 +1,92 @@
+:root {
+
+  /* Application-wide background, app-wide text color, app-wide font, app-wide text transform */
+  "--ts-var-root-background": "#FFF8E1"; /* Warm, light beige for a soft background */
+  "--ts-var-root-color": "#6A4C34"; /* Rich brown for text */
+  "--ts-var-root-font-family": "Roboto,Helvetica,Arial,sans-serif";
+  "--ts-var-root-text-transform": "initial";
+
+  /* Top navigation panel */
+  "--ts-var-nav-color": "#FFEDD5"; /* Pale orange for text */
+  "--ts-var-nav-background": "#8B4513"; /* Deep brown for nav bar */
+  "--ts-var-search-data-button-background": "#FFCC80"; /* Muted orange for buttons */
+  "--ts-var-search-data-button-font-color": "#6A4C34";
+
+  /* Search bar, search navigation and auto-suggestion panels */
+  "--ts-var-search-bar-text-font-color": "#6A4C34";
+  "--ts-var-search-bar-text-font-family": "Roboto,Helvetica,Arial,sans-serif";
+  "--ts-var-search-bar-text-font-style": "normal";
+  "--ts-var-search-bar-background": "#FFD700"; /* Golden background for search bar */
+  "--ts-var-search-auto-complete-background": "#FFECB3"; /* Light orange for autocomplete */
+  "--ts-var-search-navigation-button-background": "#FFD700";
+  "--ts-var-search-bar-navigation-help-text-background": "#FFECB3";
+  "--ts-var-search-bar-auto-complete-hover-background": "#FFA726"; /* Bright orange on hover */
+  "--ts-var-search-auto-complete-font-color": "#6A4C34";
+  "--ts-var-search-auto-complete-subtext-font-color": "#8B4513";
+
+  /* Data and edit panels on Answer page */
+  "--ts-var-answer-data-panel-background-color": "#FFF3E0"; /* Soft cream */
+  "--ts-var-answer-edit-panel-background-color": "#6A4C34";
+
+  /* Buttons */
+  /* Application-wide button design for main buttons */
+  "--ts-var-button-border-radius": "5px";
+
+  /* Application-wide button design for smaller buttons */
+  "--ts-var-button--icon-border-radius": "5px";
+
+  /* Primary buttons */
+  "--ts-var-button--primary-color": "#FFFFFF";
+  "--ts-var-button--primary-background": "#FF8C00"; /* Dark orange for buttons */
+  "--ts-var-button--primary--hover-background": "#D2691E"; /* Chocolate for hover */
+  "--ts-var-button--primary--font-family": "Roboto,Helvetica,Arial,sans-serif";
+
+  /* Secondary buttons */
+  "--ts-var-button--secondary-color": "#6A4C34";
+  "--ts-var-button--secondary-background": "#FFECB3"; /* Light orange */
+  "--ts-var-button--secondary--hover-background": "#FFA726";
+  "--ts-var-button--secondary--font-family": "Roboto,Helvetica,Arial,sans-serif";
+
+  /* Tertiary buttons */
+  "--ts-var-button--tertiary-color": "#6A4C34";
+  "--ts-var-button--tertiary-background": "#FFF8E1";
+  "--ts-var-button--tertiary--hover-background": "#FFCC80";
+
+  /* Natural Language Search panel */
+  "--ts-var-sage-bar-header-background-color": "#8B4513";
+  "--ts-var-source-selector-background-color": "#FFF3E0";
+  "--ts-var-sage-search-box-font-color": "#6A4C34";
+  "--ts-var-sage-search-box-background-color": "#FFECB3";
+  "--ts-var-sage-embed-background-color": "#FFF8E1";
+  "--ts-var-sage-seed-questions-background": "#FFE4C4"; /* Bisque tone */
+  "--ts-var-sage-seed-questions-font-color": "#6A4C34";
+  "--ts-var-sage-seed-questions-hover-background": "#FFCC80";
+
+  /* Liveboard */
+  "--ts-var-liveboard-edit-bar-background": "#D2691E";
+  "--ts-var-liveboard-cross-filter-layout-background": "#FFF3E0";
+
+  /* Visualizations and answers */
+  "--ts-var-viz-title-color": "#D2691E"; /* Warm reddish-brown */
+  "--ts-var-viz-title-font-family": "Roboto,Helvetica,Arial,sans-serif";
+  "--ts-var-viz-title-text-transform": "capitalize";
+
+  "--ts-var-viz-description-color": "#FF4500"; /* Bold orange-red for emphasis */
+  "--ts-var-viz-description-font-family": "Roboto,Helvetica,Arial,sans-serif";
+  "--ts-var-viz-description-text-transform": "capitalize";
+
+  "--ts-var-viz-border-radius": "15px";
+  "--ts-var-viz-box-shadow": "1px 2px 5px #888888";
+  "--ts-var-viz-background": "#FFF8E1";
+  "--ts-var-viz-legend-hover-background": "#FFCC80";
+
+  /* Filter chips */
+  "--ts-var-chip-border-radius": "25pt";
+  "--ts-var-chip-title-font-family": "Roboto,Helvetica,Arial,sans-serif";
+  "--ts-var-chip-background": "#FFA07A"; /* Light salmon for chips */
+  "--ts-var-chip-color": "#6A4C34";
+  "--ts-var-chip--hover-background": "#FF7F50"; /* Coral on hover */
+  "--ts-var-chip--hover-color": "#FFFFFF";
+  "--ts-var-chip--active-background": "#FF6347"; /* Tomato tone for active */
+  "--ts-var-chip--active-color": "#FFFFFF";
+}
