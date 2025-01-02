@@ -1,0 +1,51 @@
+:root {
+  /* Application-wide background, app-wide text color, app-wide font, app-wide text transform */
+  --ts-var-root-background: #FFFFFF; /* White background */
+  --ts-var-root-color: #1D232F; /* Default dark text */
+  --ts-var-root-font-family: Roboto, Helvetica, Arial, sans-serif;
+  --ts-var-root-text-transform: initial;
+  --ts-var-root-secondary-color: #FF0000; /* Red secondary color */
+  --ts-var-application-color: #0000FF; /* Blue primary color */
+
+  /* Top navigation panel */
+  --ts-var-nav-color: #FFFFFF; /* White text */
+  --ts-var-nav-background: #0000FF; /* Blue navigation background */
+  --ts-var-search-data-button-background: #FF0000; /* Red button background */
+  --ts-var-search-data-button-font-color: #FFFFFF; /* White button text */
+  --ts-var-search-data-button-font-family: var(--ts-var-root-font-family);
+
+  /* Search bar, search navigation, and auto-suggestion panels */
+  --ts-var-search-bar-text-font-color: #FFFFFF; /* White text in the search bar */
+  --ts-var-search-bar-background: #FF0000; /* Red background for search bar */
+  --ts-var-search-auto-complete-background: #F7F7F7; /* Light grey autocomplete */
+  --ts-var-search-navigation-button-background: #0000FF; /* Blue button background */
+  --ts-var-search-bar-auto-complete-hover-background: #FFB3B3; /* Light red hover */
+
+  /*  Buttons */
+  --ts-var-button--primary-color: #FFFFFF; /* White primary button text */
+  --ts-var-button--primary-background: #0000FF; /* Blue primary button */
+  --ts-var-button--primary--hover-background: #FF0000; /* Red hover for primary button */
+
+  --ts-var-button--secondary-color: #FFFFFF; /* White secondary button text */
+  --ts-var-button--secondary-background: #FF0000; /* Red secondary button */
+  --ts-var-button--secondary--hover-background: #0000FF; /* Blue hover for secondary button */
+
+  --ts-var-button--tertiary-color: #1D232F; /* Neutral text color */
+  --ts-var-button--tertiary-background: #FFFFFF; /* White background */
+  --ts-var-button--tertiary--hover-background: #FF0000; /* Red hover */
+
+  /* Liveboard */
+  --ts-var-liveboard-edit-bar-background: #0000FF; /* Blue liveboard edit bar */
+  --ts-var-liveboard-cross-filter-layout-background: #EEF6FA; /* Soft blue layout */
+
+  /* Visualizations and answers */
+  --ts-var-viz-title-color: #FF0000; /* Red titles */
+  --ts-var-viz-background: #FFFFFF; /* White background */
+  --ts-var-viz-box-shadow: 1px 2px 5px #888888; /* Subtle shadow */
+
+  /* Filter chips */
+  --ts-var-chip-background: #0000FF; /* Blue chips */
+  --ts-var-chip--hover-background: #FF0000; /* Red hover for chips */
+  --ts-var-chip--active-background: #FFFFFF; /* White active chip */
+  --ts-var-chip--active-color: #FF0000; /* Red text on active chip */
+}
