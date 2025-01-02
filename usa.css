@@ -14,18 +14,6 @@
   --ts-var-search-data-button-font-color: #FFFFFF; /* White button text */
   --ts-var-search-data-button-font-family: var(--ts-var-root-font-family);
 
-  /* Search bar, search navigation, and auto-suggestion panels */
-  --ts-var-search-bar-text-font-color: #FFFFFF; /* White text in the search bar */
-  --ts-var-search-bar-text-font-family: var(--ts-var-root-font-family);
-  --ts-var-search-bar-text-font-style: normal;
-  --ts-var-search-bar-background: #FF0000; /* Red background for search bar */
-  --ts-var-search-auto-complete-background: #F7F7F7; /* Light grey autocomplete */
-  --ts-var-search-navigation-button-background: #0000FF; /* Blue button background */
-  --ts-var-search-bar-navigation-help-text-background: #F7F7F7;
-  --ts-var-search-bar-auto-complete-hover-background: #FFB3B3; /* Light red hover */
-  --ts-var-search-auto-complete-font-color: #000000;
-  --ts-var-search-auto-complete-subtext-font-color: #1D232F;
-
   /*  Data and edit panels on Answer page */
   --ts-var-answer-data-panel-background-color: #FFFFFF; /* White background */
   --ts-var-answer-edit-panel-background-color: #1D232F; /* Dark background for editing */
@@ -49,15 +37,6 @@
   --ts-var-button--tertiary-background: #FFFFFF; /* White background */
   --ts-var-button--tertiary--hover-background: #FF0000; /* Red hover */
 
-  /* Natural Language Search panel */
-  --ts-var-sage-bar-header-background-color: #0000FF; /* Blue header */
-  --ts-var-source-selector-background-color: #FFFFFF; /* White selector */
-  --ts-var-sage-search-box-font-color: #FF0000; /* Red text */
-  --ts-var-sage-search-box-background-color: #FFFFFF; /* White background */
-  --ts-var-sage-embed-background-color: #FFFFFF;
-  --ts-var-sage-seed-questions-background: #F7F7F7;
-  --ts-var-sage-seed-questions-font-color: #0000FF;
-  --ts-var-sage-seed-questions-hover-background: #FFB3B3;
 
   /* Chart selection widget on answers and visualization pages */
   --ts-var-answer-chart-select-background: #FFFFFF;
@@ -113,12 +92,6 @@
   /* Segment control */
   --ts-var-segment-control-hover-background: #FF0000; /* Red hover */
 
-  /* Modular Homepage */
-  --ts-var-home-watchlist-selected-text-color: #FF0000; /* Red text for selection */
-  --ts-var-home-card-color: #1D232F; /* Neutral card text */
-  --ts-var-home-favorite-suggestion-card-text-color: #FF0000; /* Red favorite text */
-  --ts-var-home-favorite-suggestion-card-background: #EEF6FA;
-  --ts-var-home-favorite-suggestion-card-icon-color: #000000; /* Black icons */
 
   /* Additional styles for liveboards */
   .pinboard-tab-module__tabNameContainer {
