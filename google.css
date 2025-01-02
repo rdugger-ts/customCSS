@@ -1,7 +1,7 @@
 /* ThoughtSpot Custom CSS with Google Colors */
 :root {
     --ts-var-root-background: #4285f4; /* Google Blue */
-    --ts-var-root-color: #ffffff; /* White text */
+    --ts-var-root-color: #333333; /* White text */
     --ts-var-root-secondary-color: #ea4335; /* Google Red */
     --ts-var-root-font-family: "Arial", sans-serif;
     --ts-var-root-text-transform: uppercase;
