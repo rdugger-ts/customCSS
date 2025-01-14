@@ -1,0 +1,58 @@
+:root {
+  /* Application-wide background, app-wide text color, app-wide font, app-wide text transform */
+  --ts-var-root-background: #FFF5E1; /* Soft sandy color */
+  --ts-var-root-color: #005B96; /* Ocean blue for text */
+  --ts-var-root-font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+  --ts-var-root-text-transform: capitalize;
+  --ts-var-root-secondary-color: #87CEFA; /* Sky blue highlights */
+  --ts-var-application-color: #FFD700; /* Sun-inspired accents */
+
+  /* Top navigation panel */
+  --ts-var-nav-color: #FFF9E6; /* Pale sandy yellow */
+  --ts-var-nav-background: #008ECC; /* Deep sea blue */
+  --ts-var-search-data-button-background: #FFECB3; /* Golden sand buttons */
+  --ts-var-search-data-button-font-color: var(--ts-var-root-color);
+
+  /* Search bar, search navigation and auto-suggestion panels */
+  --ts-var-search-bar-text-font-color: #005B96; /* Ocean blue text */
+  --ts-var-search-bar-text-font-family: var(--ts-var-root-font-family);
+  --ts-var-search-bar-background: #E0FFFF; /* Aqua tones */
+  --ts-var-search-auto-complete-background: #FFFAF0; /* Light sandy tones */
+  --ts-var-search-auto-complete-font-color: #005B96;
+  --ts-var-search-bar-auto-complete-hover-background: #FFDAB9; /* Peach for hover */
+
+  /* Buttons */
+  --ts-var-button-border-radius: 10px; /* Rounded edges for a relaxed feel */
+  --ts-var-button--primary-color: #FFF;
+  --ts-var-button--primary-background: #F4A460; /* Sandy brown */
+  --ts-var-button--primary--hover-background: #FFA07A; /* Coral for hover */
+  --ts-var-button--secondary-background: #87CEFA; /* Sky blue */
+  --ts-var-button--secondary--hover-background: #4682B4; /* Steel blue */
+
+  /* Liveboard */
+  --ts-var-liveboard-edit-bar-background: #B0E0E6; /* Powder blue for cool edit bar */
+  --ts-var-liveboard-cross-filter-layout-background: #FFF8DC; /* Light sand */
+
+  /* Visualizations and answers */
+  --ts-var-viz-title-color: #FF6347; /* Sunset orange for titles */
+  --ts-var-viz-description-color: #2E8B57; /* Sea green for descriptions */
+  --ts-var-viz-background: #FAFAD2; /* Light golden for panels */
+  --ts-var-viz-box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+
+  /* Menu components */
+  --ts-var-menu-background: #E6E6FA; /* Lavender for calmness */
+  --ts-var-menu--hover-background: #87CEEB; /* Soft sky blue for hover */
+  --ts-var-menu-text-transform: capitalize;
+
+  /* Filter chips */
+  --ts-var-chip-background: #FFD700; /* Bright sunny yellow */
+  --ts-var-chip-color: #005B96; /* Ocean blue text */
+  --ts-var-chip--hover-background: #FFA07A; /* Coral hover effect */
+
+  /* Segment control */
+  --ts-var-segment-control-hover-background: #F0E68C; /* Khaki for a sandy highlight */
+
+  /* Dialogs */
+  --ts-var-dialog-header-background: #87CEEB; /* Sky blue */
+  --ts-var-dialog-body-background: #FFF5E1; /* Sandy beach tone */
+}
