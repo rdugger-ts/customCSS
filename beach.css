@@ -1,0 +1,81 @@
+:root {
+  /* Application-wide background, app-wide text color, app-wide font, app-wide text transform */
+  --ts-var-root-background: #FAF3E0; /* Sandy beach background */
+  --ts-var-root-color: #1A3C40; /* Ocean wave text color */
+  --ts-var-root-font-family: "Verdana, Geneva, sans-serif"; /* Relaxed, modern font */
+  --ts-var-root-text-transform: initial;
+  --ts-var-root-secondary-color: #FFA500; /* Sunny accent color */
+  --ts-var-application-color: #5DBCD2; /* Sky blue for highlights */
+
+  /* Top navigation panel */
+  --ts-var-nav-color: #FFF7E6; /* Light sandy beige */
+  --ts-var-nav-background: #005F73; /* Deep ocean blue */
+  --ts-var-search-data-button-background: #FFD700; /* Sun-kissed yellow */
+  --ts-var-search-data-button-font-color: #1A3C40; /* Ocean wave text */
+  --ts-var-search-data-button-font-family: var(--ts-var-root-font-family);
+
+  /* Search bar, search navigation and auto-suggestion panels */
+  --ts-var-search-bar-text-font-color: #1A3C40;
+  --ts-var-search-bar-text-font-family: var(--ts-var-root-font-family);
+  --ts-var-search-bar-text-font-style: normal;
+  --ts-var-search-bar-background: #87CEEB; /* Clear sky blue */
+  --ts-var-search-auto-complete-background: #FFFACD; /* Pale sun yellow */
+  --ts-var-search-navigation-button-background: #FFD700; 
+  --ts-var-search-bar-navigation-help-text-background: #FFE4B5; /* Light sandy brown */
+  --ts-var-search-bar-auto-complete-hover-background: #FFA500;
+  --ts-var-search-auto-complete-font-color: #005F73;
+  --ts-var-search-auto-complete-subtext-font-color: #1A3C40;
+
+  /* Data and edit panels on Answer page */
+  --ts-var-answer-data-panel-background-color: #F0E68C; /* Golden sand */
+  --ts-var-answer-edit-panel-background-color: #5DBCD2; 
+
+  /* Buttons */
+  --ts-var-button-border-radius: 10px;
+
+  /* Primary buttons */
+  --ts-var-button--primary-color: #FFFFFF;
+  --ts-var-button--primary-background: #FFA500;
+  --ts-var-button--primary--hover-background: #FF4500; /* Sunset orange */
+  --ts-var-button--primary--font-family: var(--ts-var-root-font-family);
+
+  /* Secondary buttons */
+  --ts-var-button--secondary-color: #1A3C40;
+  --ts-var-button--secondary-background: #FFE4B5;
+  --ts-var-button--secondary--hover-background: #FFDEAD; 
+
+  /* Tertiary buttons */
+  --ts-var-button--tertiary-color: #1A3C40;
+  --ts-var-button--tertiary-background: #FAF3E0;
+  --ts-var-button--tertiary--hover-background: #FFD700;
+
+  /* Liveboard */
+  --ts-var-liveboard-edit-bar-background: #5DBCD2;
+  --ts-var-liveboard-cross-filter-layout-background: #E0FFFF; /* Light aqua */
+
+  /* Visualizations and answers */
+  --ts-var-viz-title-color: #FFA500;
+  --ts-var-viz-title-font-family: "Georgia, serif";
+  --ts-var-viz-title-text-transform: Capitalize;
+
+  --ts-var-viz-description-color: #FF4500;
+  --ts-var-viz-description-font-family: var(--ts-var-root-font-family);
+  --ts-var-viz-description-text-transform: Capitalize;
+
+  --ts-var-viz-border-radius: 15px;
+  --ts-var-viz-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  --ts-var-viz-background: #FFF7E6;
+  --ts-var-viz-legend-hover-background: #FFE4B5;
+
+  /* Filter chips */
+  --ts-var-chip-border-radius: 20px;
+  --ts-var-chip-background: #FFA500;
+  --ts-var-chip-color: #FFFFFF;
+  --ts-var-chip--hover-background: #FF4500;
+  --ts-var-chip--hover-color: #FFFFFF;
+
+  /* Menu components */
+  --ts-var-menu-color: #1A3C40;
+  --ts-var-menu-background: #FFF7E6;
+  --ts-var-menu--hover-background: #FFD700;
+}
