@@ -1,6 +1,6 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="width:0;height:0;visibility:hidden;">
+<defs/>
   <symbol id="rd-icon-spotter" viewBox="0 0 48 48">
     <g transform="translate(2.3,0) scale(0.0503)" style="fill: #ffc300;">
       <path d="M247.66,542.73c22.01,0,39.92-17.91,39.92-39.92s-17.91-39.92-39.92-39.92-39.92,17.91-39.92,39.92,17.91,39.92,39.92,39.92Z"/>
