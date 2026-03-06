@@ -1,7 +1,7 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
 
-  <symbol id="rd-icon-spotter" viewBox="0 0 48 48" fill="currentColor">
+  <symbol id="rd-icon-spotter" viewBox="0 0 48 48" fill="#ffc300">
     <g transform="translate(2.3,0) scale(0.0503)">
       <path d="M247.66,542.73c22.01,0,39.92-17.91,39.92-39.92s-17.91-39.92-39.92-39.92-39.92,17.91-39.92,39.92,17.91,39.92,39.92,39.92Z"/>
       <path d="M611.06,462.89c-22.01,0-39.92,17.91-39.92,39.92s17.91,39.92,39.92,39.92,39.92-17.91,39.92-39.92-17.91-39.92-39.92-39.92Z"/>
@@ -10,8 +10,8 @@
   </symbol>
 
   <symbol id="rd-icon-thoughtspot" viewBox="0 0 48 48">
-    <circle cx="24" cy="24" r="10" fill="currentColor"/>
-    <g stroke="currentColor" stroke-width="2" fill="none">
+    <circle cx="24" cy="24" r="10" fill="#ffc300"/>
+    <g stroke="#ffc300" stroke-width="2" fill="none">
       <line x1="24" y1="2" x2="24" y2="12"/>
       <line x1="24" y1="36" x2="24" y2="46"/>
       <line x1="2" y1="24" x2="12" y2="24"/>
