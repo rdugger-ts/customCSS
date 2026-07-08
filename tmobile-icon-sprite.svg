@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="width:0;height:0;visibility:hidden;">
+  <defs/>
+  <symbol id="rd-icon-spotter" viewBox="0 0 48 48" fill="none">
+    <!-- T-Mobile magenta rounded square background -->
+    <rect x="2" y="2" width="44" height="44" rx="8" fill="#E20074"/>
+    <!-- Horizontal bar of the T -->
+    <rect x="6" y="8" width="36" height="8" rx="3" fill="white"/>
+    <!-- Vertical stem of the T -->
+    <rect x="20" y="16" width="8" height="26" rx="3" fill="white"/>
+  </symbol>
+</svg>
