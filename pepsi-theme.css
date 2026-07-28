@@ -1,0 +1,208 @@
+/*
+ * Pepsi Brand Theme for ThoughtSpot Visual Embed SDK
+ *
+ * USAGE — Option A: reference this file via customCSSUrl (apply globally in init())
+ * ---------------------------------------------------------------------------------
+ * import { init, AuthType } from '@thoughtspot/visual-embed-sdk';
+ *
+ * init({
+ *   thoughtSpotHost: 'https://embed-1-do-not-delete.thoughtspotstaging.cloud',
+ *   authType: AuthType.TrustedAuthTokenCookieless,
+ *   customizations: {
+ *     style: {
+ *       customCSSUrl: 'https://cdn.jsdelivr.net/gh/rdugger-ts/customCSS/pepsi-theme.css',
+ *     },
+ *   },
+ * });
+ *
+ * USAGE — Option B: apply per-component (override per LiveboardEmbed / SpotterEmbed)
+ * ---------------------------------------------------------------------------------
+ * <LiveboardEmbed
+ *   liveboardId="..."
+ *   customizations={{
+ *     style: { customCSSUrl: 'https://your-cdn.com/pepsi-theme.css' }
+ *   }}
+ * />
+ *
+ * NOTE: The host domain for customCSSUrl must be allowlisted under
+ *   Security Settings > CSP visual embed hosts in your ThoughtSpot instance.
+ *
+ * Brand palette
+ *   Pepsi Blue       #0046BE
+ *   Pepsi Blue Dark  #003087   (hover / active states)
+ *   Pepsi Red        #E32119   (accent)
+ *   White            #FFFFFF
+ *   Blue tint        #EBF1FF   (subtle tinted surfaces)
+ *   Dark text        #1A1A1A
+ *   Muted text       #666666
+ */
+
+:root {
+
+  /* ── Global ─────────────────────────────────────────────────────────────── */
+  --ts-var-root-background:           #FFFFFF;
+  --ts-var-root-color:                #1A1A1A;
+  --ts-var-root-font-family:          'Helvetica Neue', Arial, sans-serif;
+  --ts-var-root-text-transform:       none;
+  --ts-var-application-color:         #0046BE;
+
+  /* ── Navigation bar ─────────────────────────────────────────────────────── */
+  --ts-var-nav-background:            #0046BE;
+  --ts-var-nav-color:                 #FFFFFF;
+
+  /* Search data button (top nav) */
+  --ts-var-search-data-button-background:   #FFFFFF;
+  --ts-var-search-data-button-font-color:   #0046BE;
+
+  /* ── Buttons ─────────────────────────────────────────────────────────────── */
+  --ts-var-button-border-radius:       4px;
+  --ts-var-button--icon-border-radius: 4px;
+
+  /* Primary (Pin, Save, Go) */
+  --ts-var-button--primary-background:        #0046BE;
+  --ts-var-button--primary-color:             #FFFFFF;
+  --ts-var-button--primary--hover-background: #003087;
+  --ts-var-button--primary--active-background:#002060;
+
+  /* Secondary (Edit, Explore) */
+  --ts-var-button--secondary-background:        #EBF1FF;
+  --ts-var-button--secondary-color:             #0046BE;
+  --ts-var-button--secondary--hover-background: #CCDEFF;
+  --ts-var-button--secondary--active-background:#B3CCFF;
+
+  /* Tertiary (Undo, Redo) */
+  --ts-var-button--tertiary-background:        transparent;
+  --ts-var-button--tertiary-color:             #0046BE;
+  --ts-var-button--tertiary--hover-background: #EBF1FF;
+  --ts-var-button--tertiary--active-background:#CCDEFF;
+
+  /* ── Checkboxes ──────────────────────────────────────────────────────────── */
+  --ts-var-checkbox-border-color:    #CCCCCC;
+  --ts-var-checkbox-hover-border:    #0046BE;
+  --ts-var-checkbox-active-color:    #0046BE;
+  --ts-var-checkbox-checked-color:   #0046BE;
+
+  /* ── Menus ───────────────────────────────────────────────────────────────── */
+  --ts-var-menu-background:          #FFFFFF;
+  --ts-var-menu-color:               #1A1A1A;
+  --ts-var-menu--hover-background:   #EBF1FF;
+  --ts-var-menu-selected-text-color: #0046BE;
+
+  /* ── Dialogs / Modals ────────────────────────────────────────────────────── */
+  --ts-var-dialog-body-background:   #FFFFFF;
+  --ts-var-dialog-body-color:        #1A1A1A;
+  --ts-var-dialog-header-background: #0046BE;
+  --ts-var-dialog-header-color:      #FFFFFF;
+  --ts-var-dialog-footer-background: #F5F7FF;
+
+  /* ── Lists ───────────────────────────────────────────────────────────────── */
+  --ts-var-list-selected-background: #EBF1FF;
+  --ts-var-list-hover-background:    #EBF1FF;
+
+  /* ── Filter chips (Liveboard & Answer) ───────────────────────────────────── */
+  --ts-var-chip-border-radius:       16px;
+  --ts-var-chip-background:          #EBF1FF;
+  --ts-var-chip-color:               #0046BE;
+  --ts-var-chip--hover-background:   #CCDEFF;
+  --ts-var-chip--hover-color:        #003087;
+  --ts-var-chip--active-background:  #0046BE;
+  --ts-var-chip--active-color:       #FFFFFF;
+
+  /* ── Liveboard header ────────────────────────────────────────────────────── */
+  --ts-var-liveboard-header-background:              #FFFFFF;
+  --ts-var-liveboard-header-font-color:              #1A1A1A;
+  --ts-var-liveboard-header-action-button-background:#EBF1FF;
+  --ts-var-liveboard-header-action-button-font-color:#0046BE;
+  --ts-var-liveboard-header-action-button-hover-color:#003087;
+  --ts-var-liveboard-header-action-button-active-color:#002060;
+
+  /* Liveboard header badges (tab pills) */
+  --ts-var-liveboard-header-badge-background:        #EBF1FF;
+  --ts-var-liveboard-header-badge-font-color:        #0046BE;
+  --ts-var-liveboard-header-badge-hover-color:       #003087;
+  --ts-var-liveboard-header-badge-active-color:      #FFFFFF;
+  --ts-var-liveboard-header-badge-modified-background:#CCDEFF;
+  --ts-var-liveboard-header-badge-modified-font-color:#003087;
+
+  /* Tab strip */
+  --ts-var-liveboard-tab-active-border-color:        #0046BE;
+  --ts-var-liveboard-tab-hover-color:                #003087;
+
+  /* Liveboard canvas / tiles */
+  --ts-var-liveboard-layout-background:              #F5F7FF;
+  --ts-var-liveboard-tile-background:                #FFFFFF;
+  --ts-var-liveboard-tile-border-color:              #E0E8FF;
+  --ts-var-liveboard-tile-border-radius:             8px;
+  --ts-var-liveboard-tile-table-header-background:   #EBF1FF;
+
+  /* Liveboard filter chips */
+  --ts-var-liveboard-chip-background:                #EBF1FF;
+  --ts-var-liveboard-chip-color:                     #0046BE;
+  --ts-var-liveboard-chip--hover-background:         #CCDEFF;
+  --ts-var-liveboard-chip--active-background:        #0046BE;
+
+  /* ── Visualization tiles ─────────────────────────────────────────────────── */
+  --ts-var-viz-background:           #FFFFFF;
+  --ts-var-viz-border-radius:        8px;
+  --ts-var-viz-box-shadow:           0 1px 4px rgba(0,0,0,0.08);
+  --ts-var-viz-title-color:          #1A1A1A;
+  --ts-var-viz-description-color:    #666666;
+
+  /* Axis labels */
+  --ts-var-axis-title-color:         #666666;
+  --ts-var-axis-data-label-color:    #666666;
+
+  /* KPI widget */
+  --ts-var-kpi-hero-color:           #1A1A1A;
+  --ts-var-kpi-comparison-color:     #666666;
+  --ts-var-kpi-positive-change-color:#007A33;
+  --ts-var-kpi-negative-change-color:#E32119;
+
+  /* ── Search bar ──────────────────────────────────────────────────────────── */
+  --ts-var-search-bar-background:               #FFFFFF;
+  --ts-var-search-bar-text-font-color:          #1A1A1A;
+  --ts-var-search-auto-complete-background:     #FFFFFF;
+  --ts-var-search-auto-complete-font-color:     #1A1A1A;
+  --ts-var-search-bar-auto-complete-hover-background: #EBF1FF;
+
+  /* ── Spotter (legacy input) ──────────────────────────────────────────────── */
+  --ts-var-spotter-input-background:  #FFFFFF;
+  --ts-var-spotter-prompt-background: #EBF1FF;
+
+  /* ── SpotterViz (new conversational AI UI) ───────────────────────────────── */
+  --ts-var-spotterviz-panel-background:           #FFFFFF;
+  --ts-var-spotterviz-input-background:           #FFFFFF;
+  --ts-var-spotterviz-input-cta-color:            #0046BE;
+  --ts-var-spotterviz-input-cta-hover-color:      #003087;
+  --ts-var-spotterviz-input-placeholder-color:    #999999;
+  --ts-var-spotterviz-border-color:               #E0E8FF;
+  --ts-var-spotterviz-message-background:         #EBF1FF;
+  --ts-var-spotterviz-text-primary:               #1A1A1A;
+  --ts-var-spotterviz-text-secondary:             #666666;
+  --ts-var-spotterviz-prompt-card-background:     #EBF1FF;
+  --ts-var-spotterviz-prompt-card-hover-background:#CCDEFF;
+  --ts-var-spotterviz-tool-call-background:       #F5F7FF;
+  --ts-var-spotterviz-tool-border-color:          #E0E8FF;
+  --ts-var-spotterviz-tool-title-color:           #0046BE;
+  --ts-var-spotterviz-thinking-inprogress-header-color: #0046BE;
+  --ts-var-spotterviz-thinking-completed-header-color:  #007A33;
+  --ts-var-spotterviz-thinking-work-done-icon-color:    #007A33;
+  --ts-var-spotterviz-reference-icon-selected-background: #0046BE;
+  --ts-var-spotterviz-reference-icon-selected-color:    #FFFFFF;
+
+  /* Saved chats sidebar */
+  --ts-var-saved-chats-bg:                   #EBF1FF;
+  --ts-var-saved-chats-text-color:           #1A1A1A;
+  --ts-var-saved-chats-title-color:          #0046BE;
+  --ts-var-saved-chats-border-color:         #E0E8FF;
+  --ts-var-saved-chats-conv-hover-bg:        #CCDEFF;
+  --ts-var-saved-chats-conv-active-bg:       #B3CCFF;
+  --ts-var-saved-chats-conv-text-color:      #1A1A1A;
+  --ts-var-saved-chats-btn-bg:               #0046BE;
+  --ts-var-saved-chats-btn-hover-bg:         #003087;
+
+  /* ── Shimmer / loading ───────────────────────────────────────────────────── */
+  --ts-var-shimmer-background:       #F0F4FF;
+  --ts-var-shimmer-sweep-background: #E0E8FF;
+
+}
