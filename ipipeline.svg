@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="rd-icon-spotter" viewBox="0 0 56 25">
+    <rect x="13" y="0" width="42" height="4" rx="2" fill="#158DBF"/>
+    <rect x="0" y="10.5" width="56" height="4" rx="2" fill="#158DBF"/>
+    <rect x="13" y="21" width="42" height="4" rx="2" fill="#158DBF"/>
+  </symbol>
+</svg>
