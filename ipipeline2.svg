@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="rd-icon-spotter" viewBox="0 0 408 387">
+    <defs>
+      <linearGradient id="ipipeline-sq-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#3693C5"/>
+        <stop offset="100%" stop-color="#384E78"/>
+      </linearGradient>
+    </defs>
+    <rect x="0" y="0" width="408" height="387" rx="40" fill="url(#ipipeline-sq-grad)"/>
+    <rect x="152" y="100" width="185" height="16" rx="8.0" fill="#FFFFFF"/>
+    <rect x="58" y="155" width="279" height="16" rx="8.0" fill="#FFFFFF"/>
+    <rect x="152" y="211" width="185" height="16" rx="8.0" fill="#FFFFFF"/>
+    <path d="M0,0 L8,1 L13,6 L15,15 L15,212 L11,223 L7,226 L-3,226 L-10,224 L-13,217 L-14,213 L-14,11 L-11,5 L-3,1 Z" transform="translate(46,292) scale(0.166667) translate(51,38)" fill="#FFFFFF"/>
+    <path d="M0,0 L150,0 L167,2 L177,5 L187,11 L197,20 L203,30 L207,36 L210,57 L210,69 L209,81 L202,102 L198,108 L188,117 L173,124 L164,127 L156,128 L20,129 L16,131 L14,137 L14,174 L13,214 L11,222 L7,225 L-6,225 L-12,222 L-14,216 L-15,209 L-15,14 L-12,5 L-9,2 Z M20,30 L15,33 L13,36 L13,92 L17,97 L22,99 L155,99 L164,96 L173,91 L179,82 L181,70 L181,55 L178,43 L171,35 L159,31 L153,30 Z" transform="translate(46,292) scale(0.166667) translate(139,38)" fill="#FFFFFF"/>
+    <path d="M0,0 L151,0 L160,3 L170,5 L180,11 L190,19 L197,31 L202,47 L202,81 L199,86 L197,95 L190,108 L183,114 L175,120 L166,124 L157,127 L144,128 L46,129 L13,129 L8,131 L6,136 L6,214 L3,222 L-3,226 L-14,226 L-19,224 L-22,219 L-24,205 L-24,17 L-20,5 L-16,1 Z M14,30 L6,33 L5,40 L5,93 L7,97 L11,99 L148,99 L159,95 L165,91 L171,78 L172,72 L172,56 L169,44 L165,38 L160,34 L146,30 Z" transform="translate(46,292) scale(0.166667) translate(510,38)" fill="#FFFFFF"/>
+    <path d="M0,0 L17,2 L22,5 L24,11 L24,22 L20,28 L16,31 L-159,32 L-188,31 L-196,28 L-199,22 L-200,16 L-198,7 L-195,3 L-185,1 Z" transform="translate(46,292) scale(0.166667) translate(949,37)" fill="#FFFFFF"/>
+    <path d="M0,0 L8,0 L16,7 L18,12 L19,33 L19,193 L22,196 L202,196 L207,198 L213,205 L214,214 L209,223 L202,226 L0,226 L-8,224 L-12,211 L-13,198 L-12,17 L-10,8 L-5,2 Z" transform="translate(46,292) scale(0.166667) translate(1029,38)" fill="#FFFFFF"/>
+    <path d="M0,0 L12,1 L19,7 L21,14 L21,213 L18,222 L14,225 L-1,225 L-6,222 L-9,206 L-9,17 L-5,4 Z" transform="translate(46,292) scale(0.166667) translate(1300,38)" fill="#FFFFFF"/>
+    <path d="M0,0 L8,0 L16,6 L23,12 L28,18 L28,20 L33,22 L44,34 L52,41 L59,49 L65,54 L71,61 L76,65 L80,71 L86,76 L91,81 L96,86 L101,90 L108,98 L114,103 L121,111 L129,119 L134,123 L137,128 L146,135 L154,142 L161,150 L166,154 L173,162 L177,166 L183,166 L184,163 L184,31 L185,24 L184,17 L187,6 L193,1 L205,1 L213,6 L215,16 L215,213 L211,223 L202,226 L193,225 L185,219 L183,215 L178,213 L168,202 L164,197 L156,190 L151,185 L147,180 L141,175 L136,170 L130,163 L122,156 L107,142 L100,134 L90,124 L82,117 L76,110 L68,103 L59,94 L54,88 L49,83 L34,69 L30,63 L26,61 L21,61 L19,64 L19,74 L20,80 L19,85 L19,210 L16,221 L12,224 L2,226 L-7,224 L-9,222 L-11,210 L-11,15 L-9,6 L-5,2 Z" transform="translate(46,292) scale(0.166667) translate(1384,38)" fill="#FFFFFF"/>
+    <path d="M0,0 L197,0 L206,4 L209,8 L210,11 L210,19 L207,25 L203,28 L197,30 L-4,30 L-9,27 L-14,21 L-15,18 L-15,11 L-12,5 L-4,1 Z" transform="translate(46,292) scale(0.166667) translate(1657,38)" fill="#FFFFFF"/>
+    <path d="M0,0 L7,0 L16,4 L19,7 L20,10 L21,25 L20,214 L17,221 L11,224 L-2,224 L-7,219 L-9,211 L-9,14 L-6,4 Z" transform="translate(46,292) scale(0.166667) translate(409,39)" fill="#FFFFFF"/>
+    <path d="M0,0 L26,1 L32,4 L36,12 L36,19 L31,27 L25,30 L-134,30 L-143,27 L-146,22 L-147,13 L-144,4 L-142,2 L-134,1 Z" transform="translate(46,292) scale(0.166667) translate(896,136)" fill="#FFFFFF"/>
+    <path d="M0,0 L47,0 L107,1 L112,4 L115,13 L114,23 L111,28 L102,30 L-56,30 L-62,27 L-68,19 L-68,11 L-65,6 L-60,2 L-58,1 Z" transform="translate(46,292) scale(0.166667) translate(1710,136)" fill="#FFFFFF"/>
+    <path d="M0,0 L184,0 L199,1 L204,4 L208,13 L207,20 L205,27 L201,29 L194,30 L-3,30 L-13,28 L-15,26 L-16,22 L-16,8 L-13,3 Z" transform="translate(46,292) scale(0.166667) translate(766,234)" fill="#FFFFFF"/>
+    <path d="M0,0 L144,0 L154,4 L158,11 L159,20 L155,28 L148,30 L-54,30 L-63,27 L-66,18 L-65,9 L-61,3 L-56,1 Z" transform="translate(46,292) scale(0.166667) translate(1708,234)" fill="#FFFFFF"/>
+  </symbol>
+</svg>
